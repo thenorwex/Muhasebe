@@ -1,4 +1,4 @@
-const CACHE = 'serentha-finans-v03';
+const CACHE = 'serentha-finans-v04';
 const FILES = ['./', './index.html', './manifest.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));

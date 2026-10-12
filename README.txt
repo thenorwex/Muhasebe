@@ -1,4 +1,4 @@
-SERENTHA VILLAS FINANS v0.3
+SERENTHA VILLAS FINANS v0.4
 
 Bu sürüm yerel test içindir. Veriler tarayıcının localStorage alanında saklanır; cihazlar arası eşitleme ve sunucu veritabanı yoktur.
 
@@ -14,3 +14,9 @@ KULLANIM
 
 PERSONEL HESAPLAMA NOTU
 Netten brüte hesaplama yaklaşık bordro simülasyonudur. Varsayılanlar: işçi SGK %14, işçi işsizlik %1, 2026 asgari ücret vergi istisnası için başlangıç değerleri, seçilebilir gelir vergisi dilimi ve işveren prim oranı. Kümülatif vergi matrahı, eksik gün, fazla mesai, BES/icra kesintileri, özel teşvikler ve kişisel durumlar hesaba tam olarak dahil değildir. SGK ve GİB'ye ait resmi bordro/ödeme tutarı yerine geçmez.
+
+
+Sürüm 0.4 değişiklikleri:
+- Gelir faturasında ayrı tahsil edilen alanı yoktur. Bankaya gelen tutara ilişkin fatura bir kez kaydedilir.
+- Personel formunda bankaya yatan net maaştan brüt ve işveren maliyeti tahmini yapılır.
+- HTML dosyası ve servis çalışanı önbellek sürümü güncellendi.
