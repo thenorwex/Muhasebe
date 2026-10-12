@@ -1,9 +1,10 @@
 {
   "name": "Serentha Villas Finans",
   "short_name": "Serentha Finans",
+  "lang": "tr-TR",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f4f6f3",
   "theme_color": "#102a25",
-  "lang": "tr"
+  "description": "Serentha Villas gelir, gider, personel maliyeti ve vergi tahmini"
 }
